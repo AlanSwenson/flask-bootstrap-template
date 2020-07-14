@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+environs = "*"
+urllib3 = ">=1.24.2"
+Jinja2 = ">=2.10.1"
+gunicorn = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-admin = "*"
+psycopg2 = "*"
+flask-bcrypt = "*"
+flask-login = "*"
+flask-wtf = "*"
+flask-assets = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
